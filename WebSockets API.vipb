@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2014-11-21 13:05:45" Modified_Date="2017-10-06 11:56:22" Creator="Sam Sharp" Comments="" ID="032f795b5057992b52b4b2556d16357e">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2014-11-21 13:05:45" Modified_Date="2017-12-12 12:22:51" Creator="Sam Sharp" Comments="" ID="b194544efa1d2a96881ea8fd09dc6de7">
   <Library_General_Settings>
     <Package_File_Name>MediaMongrels_Ltd_lib_WebSockets_API</Package_File_Name>
-    <Library_Version>1.7.0.24</Library_Version>
+    <Library_Version>1.7.1.25</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -38,7 +38,9 @@ It contains VIs for performing websockets handshaking, reading/writing data and 
       <URL>http://www.mediamongrels.com/websockets-library</URL>
       <Release_Notes>- Added better support for Opcodes defined in RFC6455: Now supports reading/writing of PING/PONG frames and reading/writing of fragmented messages (opcode 0x0). Payload data will be returned for supported opcodes.
 - Improved error handling of unsupported opcodes
-- Replaced Opcode with Ring type-def</Release_Notes>
+- Replaced Opcode with Ring type-def
+- Added 'Request URI' input to InitiateClientHandshake (defaults to '/') to improve compatibility with 3rd party WS servers
+- Fixed timeout not being passed to subsequent TCP VIs in Read.vi</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -327,7 +329,7 @@ It contains VIs for performing websockets handshaking, reading/writing data and 
         <Path>Source\WebSockets\InitiateClientHandshake.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>26796D14A8800E91875A8D7F077530BC</GUID>
+      <GUID>AB5225028DD100E64F85978ED7779633</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
