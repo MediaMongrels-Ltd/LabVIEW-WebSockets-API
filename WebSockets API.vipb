@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2014-11-21 13:05:45" Modified_Date="2018-06-29 22:20:37" Creator="Sam Sharp" Comments="" ID="53cfdaba7f2f51c845f27fe930ff3f63">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-21 13:05:45" Modified_Date="2018-10-31 15:37:03" Creator="Sam Sharp" Comments="" ID="5aefe858ad786ce41aa97c1f793b3065">
   <Library_General_Settings>
     <Package_File_Name>MediaMongrels_Ltd_lib_WebSockets_API</Package_File_Name>
-    <Library_Version>1.7.3.26</Library_Version>
+    <Library_Version>1.7.4.27</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -36,8 +36,7 @@ It contains VIs for performing websockets handshaking, reading/writing data and 
       <Copyright>Copyright (c) 2016, MediaMongrels Ltd</Copyright>
       <Packager>Sam Sharp</Packager>
       <URL>http://www.mediamongrels.com/websockets-library</URL>
-      <Release_Notes>- Fixed errors due to masking of payload on close frame.
-- Connected missing 'Finished' terminal on Write.vi</Release_Notes>
+      <Release_Notes>- Fixed incorrect detection of multi-frame packets in Read.vi (thanks to ANDRÉ_CARVALHO)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -326,7 +325,7 @@ It contains VIs for performing websockets handshaking, reading/writing data and 
         <Path>Source\WebSockets\InitiateClientHandshake.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>10B151CC8322A21869373E1E76C1C241</GUID>
+      <GUID>4AB2E9BC38869E519640027B0D006A75</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
