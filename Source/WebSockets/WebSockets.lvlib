@@ -46,6 +46,9 @@ http://www.mediamongrels.com
 			<Item Name="SHA-1 Test.vi" Type="VI" URL="../SHA-1/SHA-1 Test.vi"/>
 			<Item Name="SHA-1.vi" Type="VI" URL="../SHA-1/SHA-1.vi"/>
 		</Item>
+		<Item Name="Timing" Type="Folder">
+			<Item Name="Calculate Timeout.vi" Type="VI" URL="../Timing/Calculate Timeout.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="Opcodes.ctl" Type="VI" URL="../Opcodes.ctl"/>
@@ -59,4 +62,5 @@ http://www.mediamongrels.com
 		<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 		<Item Name="GetHeader.vi" Type="VI" URL="../GetHeader.vi"/>
 	</Item>
+	<Item Name="Tick Count with Error Wires.vi" Type="VI" URL="../Timing/Tick Count with Error Wires.vi"/>
 </Library>
