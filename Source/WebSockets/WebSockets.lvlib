@@ -32,6 +32,7 @@ http://www.mediamongrels.com
 			<Item Name="SplitHTTPHeaders.vi" Type="VI" URL="../SplitHTTPHeaders.vi"/>
 			<Item Name="ReadHTTPHeader.vi" Type="VI" URL="../ReadHTTPHeader.vi"/>
 			<Item Name="ProcessWSProtocol.vi" Type="VI" URL="../ProcessWSProtocol.vi"/>
+			<Item Name="GenerateWebSocketClientKey.vi" Type="VI" URL="../GenerateWebSocketClientKey.vi"/>
 		</Item>
 		<Item Name="Message Framing" Type="Folder">
 			<Item Name="DataLengthBytes.vi" Type="VI" URL="../DataLengthBytes.vi"/>
