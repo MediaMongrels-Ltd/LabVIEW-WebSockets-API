@@ -21,10 +21,11 @@
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Test WebSockets Core.lvclass" Type="LVClass" URL="../Unit Tests/Test WebSockets Core/Test WebSockets Core.lvclass"/>
-			<Item Name="Test WebSockets Client.lvclass" Type="LVClass" URL="../Unit Tests/Test WebSockets Client/Test WebSockets Client.lvclass"/>
-			<Item Name="Test WebSockets Server.lvclass" Type="LVClass" URL="../Unit Tests/Test WebSockets Server/Test WebSockets Server.lvclass"/>
+			<Item Name="Test Legacy Client.lvclass" Type="LVClass" URL="../Unit Tests/Test Legacy Client/Test Legacy Client.lvclass"/>
+			<Item Name="Test Legacy Server.lvclass" Type="LVClass" URL="../Unit Tests/Test WebSockets Server/Test Legacy Server.lvclass"/>
+			<Item Name="Test WebSocket Server.lvclass" Type="LVClass" URL="../Unit Tests/Test Legacy Server/Test WebSocket Server.lvclass"/>
 		</Item>
-		<Item Name="Socket.lvlib" Type="Library" URL="../Socket.lvlib"/>
+		<Item Name="Sockets.lvlib" Type="Library" URL="../Sockets/Sockets.lvlib"/>
 		<Item Name="WebSockets.lvlib" Type="Library" URL="../WebSockets/WebSockets.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -192,6 +193,7 @@
 				<Item Name="Is an Error (error array)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error (error array)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Is an Error (error cluster)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error (error cluster)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Is an Error__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
+				<Item Name="Join Strings.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Join Strings.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="Multi-line String to Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Multi-line String to Array__ogtk__jki_vi_tester.vi"/>
