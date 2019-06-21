@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-21 13:05:45" Modified_Date="2019-06-18 13:09:28" Creator="Sam Sharp" Comments="" ID="a79a3db36afbd3cd4d67d8bcce1a36c8">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-21 13:05:45" Modified_Date="2019-06-21 19:28:26" Creator="Sam Sharp" Comments="" ID="069047fd5f12de559eb5080996f88c95">
   <Library_General_Settings>
     <Package_File_Name>MediaMongrels_Ltd_lib_WebSockets_API</Package_File_Name>
-    <Library_Version>2.0.0.29</Library_Version>
+    <Library_Version>2.0.0.31</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -41,6 +41,7 @@
 - New: Added high-level Read function which internally handles fragmented and Ping frames
 - New: Added WebSockets Client example VI and modified examples to use new classes
 - New: Added unit testing to source repository
+- New: Added detailed documentation (.chm file) to LabVIEW Help menu and added examples to NI Example Finder
 - Fix: Fixed incorrectly applied timeout values (timeout = approx. maximum time until VI returns)
 - Fix: WebSocket-Client-Key is now correctly generated as a random string rather than being a constant
 
@@ -105,6 +106,12 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </QuickDrop_Plugins>
+      <Additional_Destination>
+        <Name>exbin</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;application&gt;\examples\exbins</Path>
+      </Additional_Destination>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -123,6 +130,12 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Examples</Path>
         <Destination>1</Destination>
         <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Help/MediaMongrels-WebSocketsAPI.bin3</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
@@ -403,7 +416,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\WebSocket</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF2A39C443C86DA37A0E42B5D21A0111</GUID>
+      <GUID>DFBC930866A4B4864912E9BDA2DFB925</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -452,7 +465,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\VISA TCP Socket</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E9593B688EFB90EB8C4D3B851E05686</GUID>
+      <GUID>28D3F2220BF1E663B315395CBE937C19</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -515,7 +528,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\Socket\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0CCB57351C57EFC819F44ECFE2A8C628</GUID>
+      <GUID>23B7E82E0359DC47A483C864F5A90F3A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -592,7 +605,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\VISA TCP Socket\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0729B57FB2991CEB19BD0D912A9F4382</GUID>
+      <GUID>223AF9ECFAD473079078B316C796D069</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -697,7 +710,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\GetHeader.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>718A5AF732998C302C6E0B8F41E640A0</GUID>
+      <GUID>366C74CCB907B498C100C5813325C630</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -816,7 +829,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\WebSocket\Write Send Headers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C3657CCD615ABFFE258C2BCFBE2DFF61</GUID>
+      <GUID>87D8D7D9C6C00AB6F2775538246428D8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
