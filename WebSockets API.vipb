@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-21 13:05:45" Modified_Date="2019-07-26 15:36:22" Creator="Sam Sharp" Comments="" ID="64fc55bc525d3d8016412ac32d43525d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-21 13:05:45" Modified_Date="2019-07-26 15:51:29" Creator="Sam Sharp" Comments="" ID="086204d14ee3a083b9223bda5e0deb2c">
   <Library_General_Settings>
     <Package_File_Name>MediaMongrels_Ltd_lib_WebSockets_API</Package_File_Name>
-    <Library_Version>2.0.0.32</Library_Version>
+    <Library_Version>2.0.0.33</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -417,7 +417,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\WebSocket</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>838004EE6B9DB25597128BF2E93350C6</GUID>
+      <GUID>9A43C914C7D596ADFF2988DACAEE36B1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -494,7 +494,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\VISA Socket Listener</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01ED41145240CE0BC00AC24257FC798A</GUID>
+      <GUID>8879732FE270E2F1F1CB0C5D452FD286</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -557,7 +557,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\Socket\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D866D3F1FC9FFE08D82D16ECDB35271</GUID>
+      <GUID>09F265CDA0B27EDCDFEAC145C1DAD13E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -634,7 +634,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\VISA TCP Socket\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8DA591213F609C1FAF58FDEA31FD6A5E</GUID>
+      <GUID>6CBA38FF33EF2A55F34C328A8523B5DA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -739,7 +739,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\GetHeader.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A1EA59C5325EE954B1559C6AB212D1FC</GUID>
+      <GUID>92481C7F6688A4ED73BCE795DDDE5971</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -858,7 +858,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\WebSocket\Write Send Headers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F94D47346A6D845732344E011FC686A0</GUID>
+      <GUID>ABBF84060B08F9AB3FEC797CE5CC928E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -921,7 +921,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\Socket Listener\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D4C99FF2D05C3E2A95C0C817A9E8E21F</GUID>
+      <GUID>87B4F98DFC822E8C7AF578539D8ABE51</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -950,7 +950,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>1</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Source\Sockets\VISA TCP Listener\Create Listener.vi</Path>
@@ -964,7 +964,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>2</Column>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Source\Sockets\VISA TCP Listener\Wait on Listener.vi</Path>
@@ -978,13 +978,27 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>3</Column>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Source\Sockets\VISA TCP Listener\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AB41B36D67C5BC17D34EF529F9EA7E4C</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>New VISA TCP Listener.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source\Sockets\VISA TCP Listener\New VISA TCP Listener.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>2535AEB5DFF1A32102DFF86F943F91C2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
