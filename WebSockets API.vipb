@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-21 13:05:45" Modified_Date="2019-07-26 15:51:29" Creator="Sam Sharp" Comments="" ID="086204d14ee3a083b9223bda5e0deb2c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-21 13:05:45" Modified_Date="2019-07-27 12:07:49" Creator="Sam Sharp" Comments="" ID="96fee73b8a4ffe0868b1953cd432ba4c">
   <Library_General_Settings>
     <Package_File_Name>MediaMongrels_Ltd_lib_WebSockets_API</Package_File_Name>
-    <Library_Version>2.0.0.33</Library_Version>
+    <Library_Version>2.0.0.34</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -417,7 +417,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\WebSocket</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9A43C914C7D596ADFF2988DACAEE36B1</GUID>
+      <GUID>E96A5BD922BC3D7D72CA417BFF8C5842</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -494,7 +494,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\VISA Socket Listener</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8879732FE270E2F1F1CB0C5D452FD286</GUID>
+      <GUID>CE825951FE0E5CE5AC974213C256DF3D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -557,7 +557,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\Socket\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>09F265CDA0B27EDCDFEAC145C1DAD13E</GUID>
+      <GUID>2D8B714B2CBAB930C746D3E5EA988250</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -634,7 +634,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\VISA TCP Socket\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6CBA38FF33EF2A55F34C328A8523B5DA</GUID>
+      <GUID>335D110900644BD87476BDF308C0D876</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -739,7 +739,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\GetHeader.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92481C7F6688A4ED73BCE795DDDE5971</GUID>
+      <GUID>34E446EA749A717716871E30C7FF6B52</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -858,7 +858,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\WebSocket\Write Send Headers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ABBF84060B08F9AB3FEC797CE5CC928E</GUID>
+      <GUID>FBF65C3F51DF0243616E3E646FBA215D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -921,7 +921,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\Socket Listener\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>87B4F98DFC822E8C7AF578539D8ABE51</GUID>
+      <GUID>FD5EF54C50FA3318ABAA1207AE77EF3B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -998,7 +998,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\VISA TCP Listener\New VISA TCP Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2535AEB5DFF1A32102DFF86F943F91C2</GUID>
+      <GUID>18D7AD5A151229415D488F41C13E53EF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
