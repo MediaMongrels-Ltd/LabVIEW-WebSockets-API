@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-21 13:05:45" Modified_Date="2019-08-09 13:18:30" Creator="Sam Sharp" Comments="" ID="9f1a0f68b25d3a9e49b71373c7135a70">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-21 13:05:45" Modified_Date="2019-08-29 17:34:07" Creator="Sam Sharp" Comments="" ID="3369cece4155c8797082ddfcbe5dbe03">
   <Library_General_Settings>
     <Package_File_Name>MediaMongrels_Ltd_lib_WebSockets_API</Package_File_Name>
-    <Library_Version>2.0.0.36</Library_Version>
+    <Library_Version>2.0.0.37</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -23,9 +23,9 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI/>
+      <Post-Install_VI>Build Support Files\Remove WebSockets from palette.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
-      <Post-Uninstall_VI/>
+      <Post-Uninstall_VI>Build Support Files\Add WebSockets to palette.vi</Post-Uninstall_VI>
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>WebSockets API.vipc</VI_Package_Configuration_File>
     <Description>
@@ -43,6 +43,7 @@
 - New: Added WebSockets Client example VI and modified examples to use new classes
 - New: Added unit testing to source repository
 - New: Added detailed documentation (.chm file) to LabVIEW Help menu and added examples to NI Example Finder
+- New: Added palette support for LV2020
 - Fix: Fixed incorrectly applied timeout values (timeout = approx. maximum time until VI returns)
 - Fix: WebSocket-Client-Key is now correctly generated as a random string rather than being a constant
 
@@ -423,7 +424,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\WebSocket</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C99091F00CF56A6BFD9C38D1102C8158</GUID>
+      <GUID>42AFFB70A0F0C0F2D5E71DD46D290864</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -500,7 +501,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\VISA Socket Listener</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E20D2FD9083F0D6BFBE11C8FC5EF1AF</GUID>
+      <GUID>6F2EA6F06446DAE17A0923BD63746F78</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -563,7 +564,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\Socket\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CB30E97F9D334EB161318C0CAA7483F0</GUID>
+      <GUID>D63EBF1BAED4ABB10C3CF4134D63DDF4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -654,7 +655,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\VISA TCP Socket\New TCP Socket Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>640F0FD47191AF352AD79EC9D8D8B228</GUID>
+      <GUID>AF849341789D9D10DBAD225181017C13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -759,7 +760,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\GetHeader.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F8CF98D59ACC3803754BB1D4DF588746</GUID>
+      <GUID>2EB2629BB331BD38742E174E56FA9755</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -878,7 +879,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\WebSocket\Write Send Headers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6358F89F82C050688C2501853CB3B5BA</GUID>
+      <GUID>C478F7C98705FD8E4004735A9E9AA068</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -941,7 +942,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\Socket Listener\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F541BD7DF13888A2DBDB54DDA2A56C72</GUID>
+      <GUID>10D3D42D5155EE206026AB90369C78DB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1018,7 +1019,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\VISA TCP Listener\New VISA TCP Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8C687ABB9C819FE0539B3E0797FA2945</GUID>
+      <GUID>C86C0E68147A43F073A5DEF243381E08</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
