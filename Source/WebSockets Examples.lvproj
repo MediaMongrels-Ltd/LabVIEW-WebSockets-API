@@ -9,30 +9,30 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://www.ni.com/Schemas/DNA/1.0 ..\DNA\1.0\NiExampleProgram.xsd" 
     SchemaVersion="1.0" 
-    ContentType="EXAMPLE" 
-&lt;Title&gt;
-	&lt;Text Locale="US"&gt;WebSockets Examples.lvproj&lt;/Text&gt;
-&lt;/Title&gt;
-&lt;Description&gt;
-	&lt;Text Locale="US"&gt;This project contains examples for using the WebSockets API provided by MediaMongrels Ltd&lt;/Text&gt;
-&lt;/Description&gt;
-&lt;Keywords&gt;
-	&lt;Item&gt;server&lt;/Item&gt;
-	&lt;Item&gt;websocket&lt;/Item&gt;
-	&lt;Item&gt;websockets&lt;/Item&gt;
-&lt;/Keywords&gt;
-&lt;Navigation&gt;
-	&lt;Item&gt;3100&lt;/Item&gt;
-&lt;/Navigation&gt;
-&lt;FileType&gt;LV Project&lt;/FileType&gt;
-&lt;Metadata&gt;
-&lt;Item Name="RTSupport"&gt;&lt;/Item&gt;
-&lt;/Metadata&gt;
-&lt;ProgrammingLanguages&gt;
-&lt;Item&gt;LabVIEW&lt;/Item&gt;
-&lt;/ProgrammingLanguages&gt;
-&lt;RequiredSoftware&gt;
-&lt;NiSoftware MinVersion="13.0"&gt;LabVIEW&lt;/NiSoftware&gt; 
+    ContentType="EXAMPLE" 
+&lt;Title&gt;
+	&lt;Text Locale="US"&gt;WebSockets Examples.lvproj&lt;/Text&gt;
+&lt;/Title&gt;
+&lt;Description&gt;
+	&lt;Text Locale="US"&gt;This project contains examples for using the WebSockets API provided by MediaMongrels Ltd&lt;/Text&gt;
+&lt;/Description&gt;
+&lt;Keywords&gt;
+	&lt;Item&gt;server&lt;/Item&gt;
+	&lt;Item&gt;websocket&lt;/Item&gt;
+	&lt;Item&gt;websockets&lt;/Item&gt;
+&lt;/Keywords&gt;
+&lt;Navigation&gt;
+	&lt;Item&gt;3100&lt;/Item&gt;
+&lt;/Navigation&gt;
+&lt;FileType&gt;LV Project&lt;/FileType&gt;
+&lt;Metadata&gt;
+&lt;Item Name="RTSupport"&gt;&lt;/Item&gt;
+&lt;/Metadata&gt;
+&lt;ProgrammingLanguages&gt;
+&lt;Item&gt;LabVIEW&lt;/Item&gt;
+&lt;/ProgrammingLanguages&gt;
+&lt;RequiredSoftware&gt;
+&lt;NiSoftware MinVersion="13.0"&gt;LabVIEW&lt;/NiSoftware&gt; 
 &lt;/RequiredSoftware&gt;</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -44,11 +44,23 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Test Client" Type="Folder" URL="../Examples/Test Client">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="Client Single Connection.vi" Type="VI" URL="../Examples/Client Single Connection.vi"/>
 		<Item Name="Server Single Connection.vi" Type="VI" URL="../Examples/Server Single Connection.vi"/>
+		<Item Name="Test Client" Type="Web Service">
+			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
+			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
+			<Property Name="ws.guid" Type="Str">{24A01271-E312-4B93-97C9-48BB6B8BC8FE}</Property>
+			<Property Name="ws.public_folder_name" Type="Str">Z:\LabVIEW Working Directory\MediaMongrels Library Packages\websockets\Source\Examples\Test Client</Property>
+			<Property Name="ws.remoteDebugging" Type="Bool">false</Property>
+			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
+			<Property Name="ws.SSE2" Type="Bool">true</Property>
+			<Property Name="ws.static_permissions" Type="Str"></Property>
+			<Item Name="Public Content" Type="Folder" URL="../Examples/Test Client">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Startup VIs" Type="Startup VIs Container"/>
+			<Item Name="Web Resources" Type="HTTP WebResources Container"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

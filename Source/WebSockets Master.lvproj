@@ -13,9 +13,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="Test Client" Type="Folder" URL="../Examples/Test Client">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Client Single Connection.vi" Type="VI" URL="../Examples/Client Single Connection.vi"/>
 			<Item Name="Server Single Connection.vi" Type="VI" URL="../Examples/Server Single Connection.vi"/>
 		</Item>
