@@ -28,4 +28,4 @@ Examples are included in the package and accessible from the LabVIEW Example Fin
 * Feel free to fork and create a pull request to improve the library by fixing issues. All submissions must follow the requirements for NI Tools Network products.
 
 ## Donations
-If you wish to support and share your gratitude for this library then donations are warmly received.
+If you wish to support and share your gratitude for this library then donations are warmly received. PayPal donations can be sent to accounts@mediamongrels.com
