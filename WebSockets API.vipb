@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-21 13:05:45" Modified_Date="2019-09-05 20:13:07" Creator="Sam Sharp" Comments="" ID="b70114ad8e724f0c975c524994adf62d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2014-11-21 13:05:45" Modified_Date="2019-11-30 16:04:10" Creator="Sam Sharp" Comments="" ID="7df77f4077d5cca1e15bd3ea18a066cc">
   <Library_General_Settings>
     <Package_File_Name>MediaMongrels_Ltd_lib_WebSockets_API</Package_File_Name>
-    <Library_Version>2.0.0.39</Library_Version>
+    <Library_Version>2.0.1.41</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -34,20 +34,7 @@
       <Copyright/>
       <Packager>Sam Sharp</Packager>
       <URL>http://www.mediamongrels.com/websockets-library</URL>
-      <Release_Notes>Major rewrite of the WebSockets library:
-- New: Moved library to an OO approach for WebSockets connections (Client/Server Classes)
-- New: Abstracted underlying socket functionality (e.g. NI VISA TCP) for future secure WebSockets support
-- New: Added TCP socket listener for listening for server socket connections
-- New: Simplified API
-- New: Added high-level Read function which internally handles fragmented and Ping frames
-- New: Added WebSockets Client Example VI and modified examples to use new classes
-- New: Added unit testing to source repository
-- New: Added detailed documentation (.chm file) to LabVIEW Help menu and added examples to NI Example Finder
-- New: Added palette support for LV2020
-- Fix: Fixed incorrectly applied timeout values (timeout = approx. maximum time until VI returns)
-- Fix: WebSocket-Client-Key is now correctly generated as a random string rather than being a constant
-
-Note: A backwards compatibility layer is retained for legacy applications allowing upgrade with minimal application changes. It is strongly recommended to update applications to use the new library VIs.</Release_Notes>
+      <Release_Notes>- Fix issue where the Sec-WebSocket-Key is not correctly generated (not Base64-encoded)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -424,7 +411,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\WebSocket</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>95834291A0E6DC37379FEAEB0DEE6E30</GUID>
+      <GUID>34F4A39545D97552068FD01C813DED0B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -501,7 +488,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\VISA Socket Listener</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E3E8369255246C8DF3EFC96CBC761C26</GUID>
+      <GUID>76C166D38719864D0A17B73A5372A802</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -564,7 +551,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\Socket\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D6E56B88D6A15C253AB3D0A3CC71166</GUID>
+      <GUID>29D6E2E68E1A0690328544B8EBCDEB73</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -655,7 +642,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\VISA TCP Socket\New TCP Socket Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C91721E90847948FCBBC2824B0E694CC</GUID>
+      <GUID>5A7457B22B5C49A4E4F896A0DD858F63</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -760,7 +747,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\GetHeader.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7F9B41A32DB1032CE4E45D1841F4672E</GUID>
+      <GUID>43DFDF2A78916BAC4819A76DBB53CDFC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -879,7 +866,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\WebSockets\WebSocket\Write Send Headers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DBAFCD66412781CAF2127513B0D66526</GUID>
+      <GUID>62DDA265A1506499311735A2033195D4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -942,7 +929,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\Socket Listener\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D285FD1C309F5294EE978B81C31F0D10</GUID>
+      <GUID>29B18571E4F42BAC11625CE82E213E55</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1019,7 +1006,7 @@ Note: A backwards compatibility layer is retained for legacy applications allowi
         <Path>Source\Sockets\VISA TCP Listener\New VISA TCP Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EA5688BFBE5142758FC556CC91552EE5</GUID>
+      <GUID>D0A0BD3DE130BE828EAAE7AA915DD410</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
